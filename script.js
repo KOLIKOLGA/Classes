@@ -1,13 +1,13 @@
 console.log("hi");
 class First {
-  Hello() {
+  hello() {
     console.log(`Привет, я метод родителя `);
   }
 }
 
 class Second extends First {
   test() {
-    super.Hello(); //запускает метод родителя через супер
+    super.hello(); //запускает метод родителя через супер
     setTimeout(() => {
       console.log(`А Я наследуемый метод`);
     }, 1000);
