@@ -1,4 +1,3 @@
-console.log("hi");
 class First {
   hello() {
     console.log(`Привет, я метод родителя `);
